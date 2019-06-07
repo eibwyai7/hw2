@@ -41,4 +41,4 @@ for i in range(n):
         total += c[i, j]
 # Print out the sum of all values in C.
 # This should be 450 for N=3, 3680 for N=4, and 18250 for N=5.
-print("sum: %.6f" % total)
+print("sum: %.6f" % total) 
