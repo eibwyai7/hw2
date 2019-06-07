@@ -9,7 +9,7 @@ a = numpy.zeros((n, n)) # Matrix A
 b = numpy.zeros((n, n)) # Matrix B
 c = numpy.zeros((n, n)) # Matrix C
 
-# Initialize the matrices to some values.
+
 for i in range(n):
     for j in range(n):
         a[i, j] = i * n + j
@@ -33,7 +33,7 @@ c = numpy.array(res)
 end = time.time()
 print("time: %.6f sec" % (end - begin))
 
-# Print C for debugging. Comment out the print before measuring the execution time.
+
 total = 0
 for i in range(n):
     for j in range(n):
